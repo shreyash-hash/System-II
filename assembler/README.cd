@@ -1,0 +1,45 @@
+1. IA-32 Instruction Format
+   1.1 General Instruction Byte Diagram
+   1.2 Opcode
+   1.3 ModR/M
+   1.4 SIB
+   1.5 Displacement
+   1.6 Immediate
+   1.7 Relative Offsets
+
+2. Encoding Lookup Tables
+   2.1 32-bit General-Purpose Registers
+   2.2 ModR/M MOD Field
+   2.3 ModR/M REG Field
+   2.4 ModR/M R/M Field
+   2.5 SIB SCALE Field
+   2.6 SIB INDEX Field
+   2.7 SIB BASE Field
+
+3. Encoding Rules
+   3.1 Register Operand
+   3.2 Memory Operand
+   3.3 Base + Displacement
+   3.4 Base + Index*Scale + Displacement
+   3.5 Immediate
+   3.6 Relative Branch
+
+4. Directives
+   4.1 DB
+   4.2 DW
+   4.3 DD
+   4.4 SECTION .text
+   4.5 SECTION .data
+
+5. Complete Encoding Walkthroughs
+
+
+
+1.1 General Instruction Byte Diagram
+
+| OPCODE | MODR/M | SIB | Displacemnet | Immediate |
+
+2. Encoding Lookup Tables
+	pg 622
+	32-Bit Addressing Forms with the ModR/M Byte
+
